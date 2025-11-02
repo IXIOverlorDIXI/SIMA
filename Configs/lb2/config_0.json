@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "name": "Levy",
+        "dim": 10
+    },
+    "pso_params": {
+        "num_particles": 40,
+        "w": 0.729,
+        "c1": 1.494,
+        "c2": 1.494
+    },
+    "solver_params": {
+        "max_iterations": 50,
+        "strategies": [
+            "clamping",
+            "reflecting",
+            "wrapping"
+        ]
+    }
+}
